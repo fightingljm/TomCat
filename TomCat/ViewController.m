@@ -9,59 +9,52 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UIImageView *tomctaImg;
-- (IBAction)cymbal:(id)sender;
-- (IBAction)drink:(id)sender;
-- (IBAction)eat:(id)sender;
-- (IBAction)fart:(id)sender;
-- (IBAction)pie:(id)sender;
-- (IBAction)scratch:(id)sender;
-@property(strong,nonatomic) NSMutableArray *imgArray;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+- (IBAction)clickButton:(id)sender;
+- (void)playImage:(NSUInteger)imageNum andImageName:(NSString *)picName;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.imgArray = [NSMutableArray array];
-}
-
-
-- (IBAction)cymbal:(id)sender {
-}
-
-- (IBAction)drink:(id)sender {
     
-    if(self.imgArray.count>0){
-        [self.imgArray removeAllObjects];
+}
+
+-(IBAction)clickButton:(UIButton *)sender {
+    switch (sender.tag) {
+        case 0: [self playImage:40 andImageName:@"eat"]; break;
+        case 1: [self playImage:24 andImageName:@"pie"]; break;
+        case 2: [self playImage:81 andImageName:@"drink"]; break;
+        case 3: [self playImage:28 andImageName:@"fart"]; break;
+        case 4: [self playImage:13 andImageName:@"cymbal"]; break;
+        case 5: [self playImage:56 andImageName:@"scratch"]; break;
+        case 6: [self playImage:81 andImageName:@"knockout"]; break;
+        case 7: [self playImage:34 andImageName:@"stomach"]; break;
+        case 8: [self playImage:30 andImageName:@"footLeft"]; break;
+        case 9: [self playImage:30 andImageName:@"footRight"]; break;
     }
+}
+
+- (void)playImage:(NSUInteger)imageNum andImageName:(NSString *)picName {
     
-    // 1.找到对应的图片组
-    for (int i=0; i<=80; i++) {
-        NSString *imgName = [NSString stringWithFormat:@"drink_%02d.jpg",i];
+    NSMutableArray *array = [NSMutableArray array];
+    
+    for (int i = 0; i<imageNum; i++) {
+        NSString *imgName = [NSString stringWithFormat:@"%@_%02d.jpg",picName,i];
         
         UIImage *img = [UIImage imageNamed:imgName];
         
-        [self.imgArray addObject:img];
+        [array addObject:img];
     }
     
-    // 2.在规定的时间内播放图片
-    self.tomctaImg.animationImages = self.imgArray;
-    self.tomctaImg.animationRepeatCount = 1;
-    self.tomctaImg.animationDuration = self.imgArray.count * 0.075;
+    self.imageView.animationImages = array;
     
-    [self.tomctaImg startAnimating];
+    self.imageView.animationRepeatCount = 1;
+    
+    self.imageView.animationDuration = array.count * 0.075;
+    
+    [self.imageView startAnimating];
 }
 
-- (IBAction)eat:(id)sender {
-}
-
-- (IBAction)fart:(id)sender {
-}
-
-- (IBAction)pie:(id)sender {
-}
-
-- (IBAction)scratch:(id)sender {
-}
 @end
