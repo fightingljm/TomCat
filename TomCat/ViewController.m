@@ -43,6 +43,10 @@
 
 - (void)playImage:(NSUInteger)imageNum andImageName:(NSString *)picName {
     
+    if(self.imageView.isAnimating) {
+        return;
+    }
+    
     NSMutableArray *array = [NSMutableArray array];
     
     for (int i = 0; i<imageNum; i++) {
@@ -63,6 +67,10 @@
     
     // 必须把创建的数组，在播放动画完成后，置为nil，进行释放。
     [self.imageView performSelector:@selector(setAnimationImages:) withObject:nil afterDelay:array.count*0.075];
+}
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
 }
 
 @end

@@ -20,43 +20,38 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="drink_00.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BKA-VH-SlU">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33V-CH-Vbd" userLabel="eat">
-                                <rect key="frame" x="20" y="519" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33V-CH-Vbd" userLabel="eat">
+                                <rect key="frame" x="20" y="552" width="60" height="60"/>
                                 <state key="normal" image="eat-iphone"/>
                                 <connections>
                                     <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M3L-9S-CYF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzW-PC-tEh" userLabel="pie">
-                                <rect key="frame" x="20" y="627" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzW-PC-tEh" userLabel="pie">
+                                <rect key="frame" x="20" y="652" width="60" height="60"/>
                                 <state key="normal" image="pie-iphone"/>
                                 <connections>
                                     <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jr9-36-PWu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLv-L4-SBn" userLabel="drink">
-                                <rect key="frame" x="20" y="745" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VLv-L4-SBn" userLabel="drink">
+                                <rect key="frame" x="20" y="752" width="60" height="60"/>
                                 <state key="normal" image="drink-iphone"/>
                                 <connections>
                                     <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nDn-A6-5Ch"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lg3-OC-0Ar" userLabel="fart">
-                                <rect key="frame" x="334" y="519" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lg3-OC-0Ar" userLabel="fart">
+                                <rect key="frame" x="334" y="552" width="60" height="60"/>
                                 <state key="normal" image="fart-iphone"/>
                                 <connections>
                                     <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gRO-lh-f6v"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IW2-F9-4h6" userLabel="scratch">
-                                <rect key="frame" x="334" y="745" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IW2-F9-4h6" userLabel="scratch">
+                                <rect key="frame" x="334" y="752" width="60" height="60"/>
                                 <state key="normal" image="scratch-iphone"/>
                                 <connections>
                                     <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UJf-9R-MhN"/>
@@ -90,9 +85,8 @@
                                     <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ymL-7F-I67"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2CM-0H-SBH" userLabel="cymbal">
-                                <rect key="frame" x="334" y="627" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2CM-0H-SBH" userLabel="cymbal">
+                                <rect key="frame" x="334" y="652" width="60" height="60"/>
                                 <state key="normal" image="cymbal-iphone"/>
                                 <connections>
                                     <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MPm-8h-APL"/>
@@ -100,6 +94,20 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lg3-OC-0Ar" firstAttribute="centerY" secondItem="33V-CH-Vbd" secondAttribute="centerY" id="7ii-cg-zvT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lg3-OC-0Ar" secondAttribute="trailing" constant="20" id="BNh-ON-GHr"/>
+                            <constraint firstItem="IW2-F9-4h6" firstAttribute="centerY" secondItem="VLv-L4-SBn" secondAttribute="centerY" id="K48-aG-xQC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IW2-F9-4h6" secondAttribute="trailing" constant="20" id="b5d-eg-87d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VLv-L4-SBn" secondAttribute="bottom" constant="50" id="bbR-aA-XgU"/>
+                            <constraint firstItem="2CM-0H-SBH" firstAttribute="centerY" secondItem="hzW-PC-tEh" secondAttribute="centerY" id="iu4-LB-0oz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2CM-0H-SBH" secondAttribute="trailing" constant="20" id="rJc-5I-5x3"/>
+                            <constraint firstItem="hzW-PC-tEh" firstAttribute="top" secondItem="33V-CH-Vbd" secondAttribute="bottom" constant="40" id="riP-Mt-j70"/>
+                            <constraint firstItem="VLv-L4-SBn" firstAttribute="top" secondItem="hzW-PC-tEh" secondAttribute="bottom" constant="40" id="sSt-nV-8wM"/>
+                            <constraint firstItem="VLv-L4-SBn" firstAttribute="centerX" secondItem="33V-CH-Vbd" secondAttribute="centerX" id="sf5-oS-gEp"/>
+                            <constraint firstItem="hzW-PC-tEh" firstAttribute="centerX" secondItem="33V-CH-Vbd" secondAttribute="centerX" id="szy-b5-cGy"/>
+                            <constraint firstItem="33V-CH-Vbd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="z1S-gT-lNd"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
