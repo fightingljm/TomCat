@@ -9,9 +9,13 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
 - (IBAction)clickButton:(id)sender;
+
 - (void)playImage:(NSUInteger)imageNum andImageName:(NSString *)picName;
+
 @end
 
 @implementation ViewController
@@ -19,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self playImage:26 andImageName:@"angry"];
 }
 
 -(IBAction)clickButton:(UIButton *)sender {
