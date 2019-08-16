@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AACBDFFA23065047000BFBB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AACBDFF923065047000BFBB5 /* AppDelegate.m */; };
+		AACBDFFD23065047000BFBB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACBDFFC23065047000BFBB5 /* ViewController.m */; };
+		AACBE00023065047000BFBB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACBDFFE23065047000BFBB5 /* Main.storyboard */; };
+		AACBE00223065048000BFBB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACBE00123065048000BFBB5 /* Assets.xcassets */; };
+		AACBE00523065048000BFBB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACBE00323065048000BFBB5 /* LaunchScreen.storyboard */; };
+		AACBE00823065048000BFBB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AACBE00723065048000BFBB5 /* main.m */; };
+		AACBE01223065048000BFBB5 /* TomCatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AACBE01123065048000BFBB5 /* TomCatTests.m */; };
+		AACBE01D23065048000BFBB5 /* TomCatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AACBE01C23065048000BFBB5 /* TomCatUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AACBE00E23065048000BFBB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AACBDFED23065047000BFBB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AACBDFF423065047000BFBB5;
+			remoteInfo = TomCat;
+		};
+		AACBE01923065048000BFBB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AACBDFED23065047000BFBB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AACBDFF423065047000BFBB5;
+			remoteInfo = TomCat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AACBDFF523065047000BFBB5 /* TomCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACBDFF823065047000BFBB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AACBDFF923065047000BFBB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AACBDFFB23065047000BFBB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AACBDFFC23065047000BFBB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AACBDFFF23065047000BFBB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AACBE00123065048000BFBB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AACBE00423065048000BFBB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AACBE00623065048000BFBB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACBE00723065048000BFBB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AACBE00D23065048000BFBB5 /* TomCatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomCatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACBE01123065048000BFBB5 /* TomCatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TomCatTests.m; sourceTree = "<group>"; };
+		AACBE01323065048000BFBB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACBE01823065048000BFBB5 /* TomCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TomCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACBE01C23065048000BFBB5 /* TomCatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TomCatUITests.m; sourceTree = "<group>"; };
+		AACBE01E23065048000BFBB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AACBDFF223065047000BFBB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACBE00A23065048000BFBB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACBE01523065048000BFBB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AACBDFEC23065047000BFBB5 = {
+			isa = PBXGroup;
+			children = (
+				AACBDFF723065047000BFBB5 /* TomCat */,
+				AACBE01023065048000BFBB5 /* TomCatTests */,
+				AACBE01B23065048000BFBB5 /* TomCatUITests */,
+				AACBDFF623065047000BFBB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AACBDFF623065047000BFBB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AACBDFF523065047000BFBB5 /* TomCat.app */,
+				AACBE00D23065048000BFBB5 /* TomCatTests.xctest */,
+				AACBE01823065048000BFBB5 /* TomCatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AACBDFF723065047000BFBB5 /* TomCat */ = {
+			isa = PBXGroup;
+			children = (
+				AACBDFF823065047000BFBB5 /* AppDelegate.h */,
+				AACBDFF923065047000BFBB5 /* AppDelegate.m */,
+				AACBDFFB23065047000BFBB5 /* ViewController.h */,
+				AACBDFFC23065047000BFBB5 /* ViewController.m */,
+				AACBDFFE23065047000BFBB5 /* Main.storyboard */,
+				AACBE00123065048000BFBB5 /* Assets.xcassets */,
+				AACBE00323065048000BFBB5 /* LaunchScreen.storyboard */,
+				AACBE00623065048000BFBB5 /* Info.plist */,
+				AACBE00723065048000BFBB5 /* main.m */,
+			);
+			path = TomCat;
+			sourceTree = "<group>";
+		};
+		AACBE01023065048000BFBB5 /* TomCatTests */ = {
+			isa = PBXGroup;
+			children = (
+				AACBE01123065048000BFBB5 /* TomCatTests.m */,
+				AACBE01323065048000BFBB5 /* Info.plist */,
+			);
+			path = TomCatTests;
+			sourceTree = "<group>";
+		};
+		AACBE01B23065048000BFBB5 /* TomCatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AACBE01C23065048000BFBB5 /* TomCatUITests.m */,
+				AACBE01E23065048000BFBB5 /* Info.plist */,
+			);
+			path = TomCatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AACBDFF423065047000BFBB5 /* TomCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACBE02123065048000BFBB5 /* Build configuration list for PBXNativeTarget "TomCat" */;
+			buildPhases = (
+				AACBDFF123065047000BFBB5 /* Sources */,
+				AACBDFF223065047000BFBB5 /* Frameworks */,
+				AACBDFF323065047000BFBB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TomCat;
+			productName = TomCat;
+			productReference = AACBDFF523065047000BFBB5 /* TomCat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AACBE00C23065048000BFBB5 /* TomCatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACBE02423065048000BFBB5 /* Build configuration list for PBXNativeTarget "TomCatTests" */;
+			buildPhases = (
+				AACBE00923065048000BFBB5 /* Sources */,
+				AACBE00A23065048000BFBB5 /* Frameworks */,
+				AACBE00B23065048000BFBB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AACBE00F23065048000BFBB5 /* PBXTargetDependency */,
+			);
+			name = TomCatTests;
+			productName = TomCatTests;
+			productReference = AACBE00D23065048000BFBB5 /* TomCatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AACBE01723065048000BFBB5 /* TomCatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACBE02723065048000BFBB5 /* Build configuration list for PBXNativeTarget "TomCatUITests" */;
+			buildPhases = (
+				AACBE01423065048000BFBB5 /* Sources */,
+				AACBE01523065048000BFBB5 /* Frameworks */,
+				AACBE01623065048000BFBB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AACBE01A23065048000BFBB5 /* PBXTargetDependency */,
+			);
+			name = TomCatUITests;
+			productName = TomCatUITests;
+			productReference = AACBE01823065048000BFBB5 /* TomCatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AACBDFED23065047000BFBB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "刘金萌";
+				TargetAttributes = {
+					AACBDFF423065047000BFBB5 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					AACBE00C23065048000BFBB5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = AACBDFF423065047000BFBB5;
+					};
+					AACBE01723065048000BFBB5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = AACBDFF423065047000BFBB5;
+					};
+				};
+			};
+			buildConfigurationList = AACBDFF023065047000BFBB5 /* Build configuration list for PBXProject "TomCat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AACBDFEC23065047000BFBB5;
+			productRefGroup = AACBDFF623065047000BFBB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AACBDFF423065047000BFBB5 /* TomCat */,
+				AACBE00C23065048000BFBB5 /* TomCatTests */,
+				AACBE01723065048000BFBB5 /* TomCatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AACBDFF323065047000BFBB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBE00523065048000BFBB5 /* LaunchScreen.storyboard in Resources */,
+				AACBE00223065048000BFBB5 /* Assets.xcassets in Resources */,
+				AACBE00023065047000BFBB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACBE00B23065048000BFBB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACBE01623065048000BFBB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AACBDFF123065047000BFBB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBDFFD23065047000BFBB5 /* ViewController.m in Sources */,
+				AACBE00823065048000BFBB5 /* main.m in Sources */,
+				AACBDFFA23065047000BFBB5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACBE00923065048000BFBB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBE01223065048000BFBB5 /* TomCatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AACBE01423065048000BFBB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBE01D23065048000BFBB5 /* TomCatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AACBE00F23065048000BFBB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AACBDFF423065047000BFBB5 /* TomCat */;
+			targetProxy = AACBE00E23065048000BFBB5 /* PBXContainerItemProxy */;
+		};
+		AACBE01A23065048000BFBB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AACBDFF423065047000BFBB5 /* TomCat */;
+			targetProxy = AACBE01923065048000BFBB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AACBDFFE23065047000BFBB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AACBDFFF23065047000BFBB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AACBE00323065048000BFBB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AACBE00423065048000BFBB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AACBE01F23065048000BFBB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AACBE02023065048000BFBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AACBE02223065048000BFBB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = TomCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liujinmeng.TomCat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AACBE02323065048000BFBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = TomCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liujinmeng.TomCat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AACBE02523065048000BFBB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = TomCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liujinmeng.TomCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TomCat.app/TomCat";
+			};
+			name = Debug;
+		};
+		AACBE02623065048000BFBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = TomCatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liujinmeng.TomCatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TomCat.app/TomCat";
+			};
+			name = Release;
+		};
+		AACBE02823065048000BFBB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = TomCatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liujinmeng.TomCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TomCat;
+			};
+			name = Debug;
+		};
+		AACBE02923065048000BFBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = TomCatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liujinmeng.TomCatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TomCat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AACBDFF023065047000BFBB5 /* Build configuration list for PBXProject "TomCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACBE01F23065048000BFBB5 /* Debug */,
+				AACBE02023065048000BFBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACBE02123065048000BFBB5 /* Build configuration list for PBXNativeTarget "TomCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACBE02223065048000BFBB5 /* Debug */,
+				AACBE02323065048000BFBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACBE02423065048000BFBB5 /* Build configuration list for PBXNativeTarget "TomCatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACBE02523065048000BFBB5 /* Debug */,
+				AACBE02623065048000BFBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACBE02723065048000BFBB5 /* Build configuration list for PBXNativeTarget "TomCatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACBE02823065048000BFBB5 /* Debug */,
+				AACBE02923065048000BFBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AACBDFED23065047000BFBB5 /* Project object */;
+}
