@@ -60,6 +60,9 @@
     self.imageView.animationDuration = array.count * 0.075;
     
     [self.imageView startAnimating];
+    
+    // 必须把创建的数组，在播放动画完成后，置为nil，进行释放。
+    [self.imageView performSelector:@selector(setAnimationImages:) withObject:nil afterDelay:array.count*0.075];
 }
 
 @end
