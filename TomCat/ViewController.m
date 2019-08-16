@@ -12,7 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
-- (IBAction)clickButton:(id)sender;
+- (IBAction)clickBtn:(id)sender;
 
 - (void)playImage:(NSUInteger)imageNum andImageName:(NSString *)picName;
 
@@ -26,7 +26,7 @@
     [self playImage:26 andImageName:@"angry"];
 }
 
--(IBAction)clickButton:(UIButton *)sender {
+-(IBAction)clickBtn:(UIButton *)sender {
     switch (sender.tag) {
         case 0: [self playImage:40 andImageName:@"eat"]; break;
         case 1: [self playImage:24 andImageName:@"pie"]; break;
