@@ -1,6 +1,6 @@
 # TomCat
 
-模仿 TomCat 
+模仿 TomCat （仅作为个人学习 Objective-C 的练习）
 
 ## drink
 
